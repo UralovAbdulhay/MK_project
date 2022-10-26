@@ -1,5 +1,5 @@
-[user]
-	name = a.uralov
-	email = a.uralov@infinbank.com
-[http]
-	proxy = http://192.168.152.200:8080
+# [user]
+# 	name = a.uralov
+# 	email = a.uralov@infinbank.com
+# [http]
+# 	proxy = http://192.168.152.200:8080
