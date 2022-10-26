@@ -12,7 +12,6 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -166,14 +165,14 @@ public class App_2 {
         while (
 
                 false &&
-                (
-                s.contains("  ")
-                        || s.contains(" .")
-                        || s.contains("ʻ")
-                ||s.contains("—")
-                || s.contains("–")
-                || s.contains("“")
-        )
+                        (
+                                s.contains("  ")
+                                        || s.contains(" .")
+                                        || s.contains("ʻ")
+                                        || s.contains("—")
+                                        || s.contains("–")
+                                        || s.contains("“")
+                        )
         ) {
 
             s = s.replace("  ", " ");
